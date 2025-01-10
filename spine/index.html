@@ -1,0 +1,11 @@
+<script src="https://unpkg.com/@esotericsoftware/spine-player@4.2.*/dist/iife/spine-player.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/@esotericsoftware/spine-player@4.2.*/dist/spine-player.css">
+
+<div id="player-container" style="width: 100%; height: 100vh;"></div>
+
+<script>
+new spine.SpinePlayer("player-container", {
+	skeleton: "https://github.com/konpoku/pic-bed/raw/refs/heads/main/spine/data.json",
+	atlas: "https://github.com/konpoku/pic-bed/raw/refs/heads/main/spine/data.atlas"
+});
+</script>
